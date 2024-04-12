@@ -1,18 +1,46 @@
-body{
-    background-color: brown;
+html{
+    scroll-behavior: smooth;
     
-
 }
-.container{
-    margin: 0;
+
+body{
+    background-color: lightcoral;
+    font-family: sans-serif;
     
+}
+header{
+    height: 100px;
+    background-color: aqua;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 10px;
+
 }
 h1{
     text-align: center;
+    padding-top: 20px;
+    color: white;
+    margin: auto;
 }
+
+
+.container{
+    background-color: gray;
+    
+    
+
+    
+    
+    
+}
+
+
 .nav{
-    justify-content: left;
-    width: max-content;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 10px;
     
     
     
@@ -20,6 +48,12 @@ h1{
     
     
     
+    
+    
+}
+.nav-item{
+    width: 20%;
+    margin: auto;
 }
 .nav-pills{
     background-color: bisque;
@@ -29,4 +63,44 @@ h1{
 
 .nav-link{
     color: black;
+    width: 100%;
+    padding-left: 10px;
+    text-align: center;
+    margin: 5px;
+
+    
+   
+    
+    
+    
 }
+
+.ul{
+    width: 100%;
+}
+.nav ul li a{
+    width: 10%;
+    
+}
+
+
+a:hover{
+    
+    background-color: black;
+    font-size: large;
+
+}
+footer{
+    text-align: center;
+    background-color: chocolate;
+    margin: auto;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    font-size: large;
+    
+}
+#active{
+    font-weight: bold;
+}
+
