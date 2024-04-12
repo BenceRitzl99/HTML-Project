@@ -1,10 +1,32 @@
 body{
     background-color: brown;
+    
+
+}
+.container{
+    margin: 0;
+    
+}
+h1{
+    text-align: center;
+}
+.nav{
+    justify-content: left;
+    width: max-content;
+    
+    
+    
+    
+    
+    
+    
 }
 .nav-pills{
     background-color: bisque;
     
+    
 }
+
 .nav-link{
     color: black;
 }
