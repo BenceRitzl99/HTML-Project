@@ -3,9 +3,10 @@ html{
     
     
 }
+/* #52528C ultra violet*/
 
 body{
-    background-color: lightcoral;
+    background-color:  #52528C ;
     font-family: sans-serif;
     
 }
@@ -19,9 +20,9 @@ header{
 
 }
 h1{
-    padding-left: 80px;
+    padding-left: 680px;
     padding-top: 20px;
-    color: black;
+    color: white;
     margin: auto;
     font-size: 70px;
 }
@@ -47,66 +48,8 @@ h2{
 }
 
 
-.nav{
-    position: fixed;
-    width: 30%;
-    top: 0;
-    opacity: 0.8;
-    margin-left: 70%;
-    
-    
-    
-    
-   
-    
-    
-    
-    
-    
-    
-    
-    
-    
-}
-.nav-item{
-    width: 20%;
-    margin: auto;
-}
-.nav-pills{
-    background-color: bisque;
-    
-    
-}
-
-.nav-link{
-    color: black;
-    width: 100%;
-    
-    text-align: center;
-    
-
-    
-   
-    
-    
-    
-}
 
 
-
-.nav ul li a{
-    width: 10%;
-    
-    
-}
-
-
-a:hover{
-    
-    background-color: black;
-    font-size: large;
-
-}
 #button{
     position: fixed;
     padding: 10px;
@@ -114,11 +57,18 @@ a:hover{
     border-radius: 10px;
     bottom: 60px;
     right: 30px;
-    background-color: black;
-    opacity: 0.4;
+    background-color: #111;
+    opacity: 0.8;
     color: white;
+    border: none;
     
 }
+
+#button:hover{
+    background-color: #444;
+
+}
+
 footer{
     text-align: center;
     background-color: chocolate;
@@ -148,3 +98,60 @@ p{
 
 }
 
+.sidebar{
+    height: 34%;
+    width: 0;
+    position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  /* opacity: 0.6; */
+  padding-top: 20px;
+  transition: 0.5s ease; /* Fokozatos áttűnés és csúsztatás */
+  
+  
+}
+.sidebar a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    
+    
+    
+    
+    
+  }
+  
+  .sidebar a:hover {
+    color: white;
+    
+    background-color: #444;
+    
+  }
+  
+
+  
+  .nyitoGomb {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .nyitoGomb:hover {
+    background-color: #444;
+  }
+  .nyitoGomb{
+    background-color: #111;
+    color: white;
+    font-size: 30px;
+    opacity: 0.8;
+  }
+  
